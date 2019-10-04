@@ -19,7 +19,7 @@ function updateStartScreen(deltaTime) {
 	else
 		drawString(-150, 200, -1000, 100, startScreenAlpha / 5, "Press\nSpace");
 
-	drawString(-300, -200, -300, 50, startScreenAlpha / 5, " mouseless and buttonless. Quality Technician working on your new Quality system");
+	drawString(-300, -200, -300, 50, startScreenAlpha / 5, " Quality Tech and Quality systems");
 
 	cameraX += (100 - cameraX) * 0.001 * deltaTime;
 	cameraY += (100 - cameraY) * 0.001 * deltaTime;
